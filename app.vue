@@ -104,28 +104,17 @@ const Star = h(Icon, { name: 'mdi:star', size: 16 })
           </div>
 
           <div>
-            <span class="font-bold font-xl font-[Poppins]">Games</span>
+            <span class="font-bold font-xl font-[Poppins]">Daily prices</span>
             
             <div class="flex gap-2 items-center">
-                  <Check class="text-emerald-600"/>
-                  <span>Fortune Wheel</span>
+
+                  <span class="text-3xl font-[Poppins] font-bold">37$ daily spin</span>
             </div>
             <div class="flex gap-2 items-center">
-                  <Check class="text-emerald-600"/>
-                  <span>Black Jack</span>
+              <span class="text-3xl font-[Poppins] font-bold">3500$ in revards</span>
             </div>
-            <div class="flex gap-2 items-center">
-                  <Check class="text-emerald-600"/>
-                  <span>Casino</span>
-            </div>
-            <div class="flex gap-2 items-center">
-                  <Check class="text-emerald-600"/>
-                  <span>Roulette</span>
-            </div>
-            <div class="flex gap-2 items-center">
-                  <Check class="text-emerald-600"/>
-                  <span>Clash</span>
-            </div>
+
+     
           </div>
 
           <div>
@@ -155,6 +144,21 @@ const Star = h(Icon, { name: 'mdi:star', size: 16 })
       </div>
     </div>
 
-    <h1 class="font-bold px-4">Hello Gambling app</h1>
+    <div class="bg-black">
+      <div class="flex min-h-full min-h-[750px]">
+        <div class="py-4 px-2 bg-slate-950 bg-opacity-30 hover:bg-opacity-90 w-full text-slate-100 min-h-full cursor-pointer hover:text-slate-50 hover:bg-slate-800 transition-all" style="background-image: url(https://images.pexels.com/photos/5477755/pexels-photo-5477755.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)">
+          <span class="text-3xl font-[Poppins] font-bold">Casino</span>
+        </div>
+        <div class="py-4 px-2 bg-slate-950 text-slate-100 min-h-full cursor-pointer hover:text-slate-50 hover:bg-slate-800 transition-all" style="background-image: url(https://images.pexels.com/photos/4677402/pexels-photo-4677402.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)">
+          <span class="text-3xl font-[Poppins] font-bold">Blackjack</span>
+        </div>
+        <div class="py-4 px-2 bg-slate-950 text-slate-100 min-h-full cursor-pointer hover:text-slate-50 hover:bg-slate-800 transition-all" style="background-image: url(https://images.pexels.com/photos/269630/pexels-photo-269630.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)">
+          <span class="text-3xl font-[Poppins] font-bold">Cards</span>
+        </div>
+        <div class="py-4 px-2 bg-slate-950 text-slate-100 min-h-full cursor-pointer hover:text-slate-50 hover:bg-slate-800 transition-all" style="background-image: url(https://images.pexels.com/photos/6664193/pexels-photo-6664193.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)">
+          <span class="text-3xl font-[Poppins] font-bold">Roulette</span>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
